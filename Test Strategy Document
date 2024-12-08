@@ -1,0 +1,92 @@
+# Test Strategy Document for Shopping Cart Application
+
+## 1. Introduction
+
+This document outlines the test strategy for the Shopping Cart application hosted on GitHub. 
+We aim to verify the application's product adding and deleting functions and displaying the correct total amount in the cart page functionalities are working as expected. 
+
+### Reasons: The process of adding and deleting products to/from the cart is one of the most frequently performed actions by users.
+
+### Priorities: The actions of adding and removing products are prioritized due to their critical importance for user experience.
+
+### Relation to the Application: These tests are important because they directly affect the core functionality of the application and user satisfaction.
+
+## 2. Objectives
+
+- To ensure the Shopping Cart application's product adding and deleting functions and the total amount in the cart page functionalities are working as expected.
+- To identify and resolve defects before the application is released.
+- To validate that the application meets the business and user requirements.
+
+## 3. Scope
+
+### 3.1 In-Scope
+
+- Functional Testing : We aim to verify some of the app's important functionalities.
+- Integration Testing : We aim to verify adding and deleting parts of the app aligns with other parts of the app
+- User Interface (UI) Testing : We decided to perform the test via UI of the app regarding usability, consistency, and responsiveness.
+- Regression Testing : We need to make sure that new changes do not adversely affect existing functionalities
+### 3.2 Out-of-Scope
+
+- Testing for unsupported browsers or devices
+- Non-functional requirements not specified in the project documentation
+
+## 4. Test Approach
+
+- Objective: To verify that the adding and deleting features of the Shopping Cart application functions as intended.
+- Tools: Cypress, Jira
+- Test Cases: Added in test cases file
+
+## 5. Test Environment
+
+- **Development Environment:** dev.react-shopping-cart-project.netlify.app
+- **Test Environment:** test.react-shopping-cart-project.netlify.app
+- **Staging Environment:** stage.react-shopping-cart-project.netlify.app
+- **Production Environment: https://react-shopping-cart-project.netlify.app/
+
+## 6. Test Data
+
+- Test data will be created to cover all possible scenarios, including valid and invalid inputs.
+- Sensitive data will be anonymized to protect user privacy.
+
+## 7. Test Schedule
+
+| Activity               | Start Date | End Date   |
+|------------------------|------------|------------|
+| Test Planning          | 01/08/2024 | 01/10/2024 |
+| Test Case Design       | 01/10/2024 | 01/15/2024 |
+| Test Environment Setup | 01/16/2024 | 01/20/2024 |
+| Test Execution         | 01/21/2024 | 02/10/2024 |
+| Defect Retesting       | 02/11/2024 | 02/15/2024 |
+| Regression Testing     | 02/16/2024 | 02/20/2024 |
+| Test Closure           | 02/21/2024 | 02/25/2024 |
+
+## 8. Roles and Responsibilities
+
+- **Test Manager:** Mr. Sparkrock
+- **Test Engineers:** Muhammet Erdur
+
+## 9. Risk Management
+
+- **Identified Risks:**
+  - Delays in test environment setup
+  - Insufficient test data
+  - High number of defects
+- **Mitigation Plans:**
+  - Regular status meetings to monitor progress
+  - Early creation and validation of test data
+  - Prioritization of defect fixes based on severity
+
+## 10. Test Deliverables
+
+- Test Plan
+- Test Cases
+- Test Scripts
+- Test Data
+- Defect Reports
+- Test Summary Report
+
+## 11. Communication Plan
+
+- Weekly status meetings
+- Daily stand-up meetings during the test execution phase
+- Real-time updates via project management tools (e.g., Jira, Trello)
