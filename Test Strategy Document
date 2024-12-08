@@ -19,16 +19,10 @@ We aim to verify the application's product adding and deleting functions and dis
 
 ## 3. Scope
 
-### 3.1 In-Scope
-
 - Functional Testing : We aim to verify some of the app's important functionalities.
 - Integration Testing : We aim to verify adding and deleting parts of the app aligns with other parts of the app
 - User Interface (UI) Testing : We decided to perform the test via UI of the app regarding usability, consistency, and responsiveness.
 - Regression Testing : We need to make sure that new changes do not adversely affect existing functionalities
-### 3.2 Out-of-Scope
-
-- Testing for unsupported browsers or devices
-- Non-functional requirements not specified in the project documentation
 
 ## 4. Test Approach
 
