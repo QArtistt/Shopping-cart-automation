@@ -1,0 +1,9 @@
+## Test Cases for Shopping Cart Application
+
+
+| Test Case ID | Test Description             | Precondition                   | Steps to Execute                                    | Expected Result                             |
+|---------------|-----------------------------|--------------------------------|------------------------------------------------     |---------------------------------------------|
+| TC-001        | Add first item to cart      | User is on the main page       | 1. Navigate to product page 2. Click "Add to Cart"  | Item is added to the cart                  |
+| TC-002        | Remove item from cart       | Item is in the cart            | 1. Navigate to cart 2. Click "X" icon               | Item is removed from the cart               |
+| TC-003        | Update item quantity        | Item is in the cart            | 1. Navigate to cart 2. Change quantity              | Quantity is updated in the cart             |
+| TC-004        | Verify the Amount           | Items are on the cart          | 1. Navigate to cart 2. Click on "+/-" icons         | Cart displays all items added and the amount correctly
